@@ -1,0 +1,2 @@
+- Icons on Menu doesn't show up
+- Switch Button doesn't work
