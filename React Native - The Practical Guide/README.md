@@ -4,4 +4,4 @@
 - 04.Components, Styling, Layouts - [rn-guess-number - Guess the Number App](https://github.com/mdamyanova/Udemy-Courses/tree/master/React%20Native%20-%20The%20Practical%20Guide/rn-guess-number)
   - working with basics + Headers, User Input, Alerts, Screens
 - 06.Navigation and React Navigation - [rn-meals - The Meals App](https://github.com/mdamyanova/Udemy-Courses/tree/master/React%20Native%20-%20The%20Practical%20Guide/rn-meals)
-  - working with basics + advanced styling + Navigation + Menu 
+  - working with basics + advanced styling + Navigation + Menu + Redux
