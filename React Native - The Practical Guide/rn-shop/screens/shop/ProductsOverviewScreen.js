@@ -42,9 +42,9 @@ const ProductsOverviewScreen = props => {
     };
   }, [loadProducts]);
 
-  useEffect(() => {
-    loadProducts();
-  }, [dispatch, loadProducts]);
+ // useEffect(() => {
+ //   loadProducts();
+ // }, [dispatch, loadProducts]);
 
   const selectItemHandler = (id, title) => {
     props.navigation.navigate('ProductDetail', {
