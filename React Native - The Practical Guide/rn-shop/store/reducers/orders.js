@@ -1,5 +1,5 @@
-import { ADD_ORDER, SET_ORDERS } from '../actions/orders';
-import Order from '../../models/order';
+import { ADD_ORDER, SET_ORDERS } from "../actions/orders";
+import Order from "../../models/order";
 
 const initialState = {
   orders: []
