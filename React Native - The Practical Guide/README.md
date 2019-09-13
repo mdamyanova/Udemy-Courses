@@ -5,5 +5,5 @@
   - working with basics + Headers, User Input, Alerts, Screens
 - 06.Navigation and React Navigation - [rn-meals - The Meals App](https://github.com/mdamyanova/Udemy-Courses/tree/master/React%20Native%20-%20The%20Practical%20Guide/rn-meals)
   - working with basics + advanced styling + Navigation + Menu + Redux
-- 08.The Shop App - [rn-shop](https://github.com/mdamyanova/Udemy-Courses/tree/master/React%20Native%20-%20The%20Practical%20Guide/rn-shop)
+- 08.The Shop App - [rn-shop - The Shop App](https://github.com/mdamyanova/Udemy-Courses/tree/master/React%20Native%20-%20The%20Practical%20Guide/rn-shop)
   - exercise app + http requests + authentication
