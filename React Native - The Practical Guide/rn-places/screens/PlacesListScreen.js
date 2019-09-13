@@ -3,7 +3,6 @@ import { View, Text, StyleSheet, Platform } from "react-native";
 import { HeaderButtons, Item } from "react-navigation-header-buttons";
 
 import HeaderButton from "../components/HeaderButton";
-import { Platform } from "@unimodules/core";
 
 const PlacesListScreen = props => {
   return (
