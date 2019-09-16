@@ -1,8 +1,6 @@
 import { Platform } from "react-native";
-import { createAppContainer } from 'react-navigation';
+import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
-import { createTabsNavigator } from "react-navigation-tabs";
-import { createDrawerNavigator } from "react-navigation-drawer";
 
 import PlacesListScreen from "../screens/PlacesListScreen";
 import PlaceDetailScreen from "../screens/PlaceDetailScreen";
