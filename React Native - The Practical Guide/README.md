@@ -7,3 +7,5 @@
   - working with basics + advanced styling + Navigation + Menu + Redux
 - 08.The Shop App - [rn-shop - The Shop App](https://github.com/mdamyanova/Udemy-Courses/tree/master/React%20Native%20-%20The%20Practical%20Guide/rn-shop)
   - exercise app + http requests + authentication
+- 12.Native Device Features - [rn-places - Places App](https://github.com/mdamyanova/Udemy-Courses/tree/master/React%20Native%20-%20The%20Practical%20Guide/rn-places)
+  - exercise app + camera + location + maps + SQLite
