@@ -46,7 +46,7 @@ const ImgPicker = props => {
         )}
       </View>
       <Button
-        title="Take Image"
+        title='Take Image'
         color={Colors.primary}
         onPress={takeImageHandler}
       />

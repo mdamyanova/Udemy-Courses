@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {
   ScrollView,
   View,
@@ -6,16 +6,16 @@ import {
   Text,
   TextInput,
   StyleSheet
-} from "react-native";
-import { useDispatch } from "react-redux";
+} from 'react-native';
+import { useDispatch } from 'react-redux';
 
-import Colors from "../constants/colors";
-import * as placesActions from "../store/places-actions";
-import ImagePicker from "../components/ImagePicker";
-import LocationPicker from "../components/LocationPicker";
+import Colors from '../constants/colors';
+import * as placesActions from '../store/places-actions';
+import ImagePicker from '../components/ImagePicker';
+import LocationPicker from '../components/LocationPicker';
 
 const NewPlaceScreen = props => {
-  const [titleValue, setTitleValue] = useState("");
+  const [titleValue, setTitleValue] = useState('');
   const [selectedImage, setSelectedImage] = useState();
 
   const dispatch = useDispatch();
@@ -46,7 +46,7 @@ const NewPlaceScreen = props => {
         <ImagePicker onImageTaken={imageTakenHandler} />
         <LocationPicker navigation={props.navigation} />
         <Button
-          title="Save Place"
+          title='Save Place'
           color={Colors.primary}
           onPress={savePlaceHandler}
         />
@@ -56,7 +56,7 @@ const NewPlaceScreen = props => {
 };
 
 NewPlaceScreen.navigationOptions = {
-  headerTitle: "Add Place"
+  headerTitle: 'Add Place'
 };
 
 const styles = StyleSheet.create({
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     marginBottom: 15
   },
   textInput: {
-    borderBottomColor: "#ccc",
+    borderBottomColor: '#ccc',
     borderBottomWidth: 1,
     marginBottom: 15,
     paddingVertical: 4,

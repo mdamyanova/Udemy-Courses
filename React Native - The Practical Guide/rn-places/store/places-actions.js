@@ -1,13 +1,13 @@
-import * as FileSystem from "expo-file-system";
+import * as FileSystem from 'expo-file-system';
 
-import { insertPlace, fetchPlaces } from "../helpers/db";
+import { insertPlace, fetchPlaces } from '../helpers/db';
 
-export const ADD_PLACE = "ADD_PLACE";
-export const SET_PLACES = "SET_PLACES";
+export const ADD_PLACE = 'ADD_PLACE';
+export const SET_PLACES = 'SET_PLACES';
 
 export const addPlace = (title, image) => {
   return async dispatch => {
-    const fileName = image.split("/").pop();
+    const fileName = image.split('/').pop();
     const newPath = FileSystem.documentDirectory + fileName;
 
     try {
@@ -18,7 +18,7 @@ export const addPlace = (title, image) => {
       const dbResult = await insertPlace(
         title,
         newPath,
-        "Dummy address",
+        'Dummy address',
         15.6,
         12.3
       );
